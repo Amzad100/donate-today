@@ -1,0 +1,249 @@
+* {
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    height: 669px;
+    background-image: url(../images/donation12.png);
+    background-repeat: no-repeat;
+    background-color: rgb(87, 84, 84);
+    background-blend-mode: multiply;
+    text-align: center;
+    align-items: center;
+}
+
+.header-box {
+    height: 280px;
+    width: 680px;
+    text-align: center;
+    padding: 175px 307px;
+}
+
+.header-title {
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+}
+
+.header-description {
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+
+.btn-primary {
+    background-color: rgba(230, 66, 66, 0.811);
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+
+/* main style */
+main {
+    width: 1140px;
+}
+
+section {
+    margin-top: 130px;
+}
+
+.donate-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    text-align: center;
+    width: 304px;
+    height: 54px;
+}
+
+.donate-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 691px;
+    height: 56px;
+}
+
+.donate-tk {
+    display: flex;
+}
+
+.btn-1 {
+    width: 135px;
+    height: 123px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+}
+
+.btn-2 {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    width: 136px;
+    height: 123px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FF5959;
+}
+
+.input {
+    text-align: center;
+}
+
+.input-tk {
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    text-align: center;
+    border: 0;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+.bnt2 {
+    text-align: center;
+}
+
+/* donate plan section */
+.donate-plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    width: 357px;
+    height: 54px;
+}
+
+.donate-plan-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    text-align: center;
+    width: 691px;
+    height: 56px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.donate-plan-container {
+    display: flex;
+    gap: 33px;
+}
+
+.donate-plan-subcontainer1 {
+    width: 350px;
+    height: 250px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.donate-plan-subcontainer1 h3 {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+}
+
+.donate-plan-subcontainer1 img {
+    width: 58.13px;
+    height: 49.77px;
+}
+
+.donate-plan-subcontainer1 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    width: 315px;
+    height: 101px;
+}
+
+.donate-plan-subcontainer2 {
+    width: 350px;
+    height: 250px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.donate-plan-subcontainer2 h3 {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+}
+
+.donate-plan-subcontainer2 img {
+    width: 58.13px;
+    height: 49.77px;
+}
+
+.donate-plan-subcontainer2 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    width: 315px;
+    height: 101px;
+}
+
+.donate-plan-subcontainer3 {
+    width: 350px;
+    height: 250px;
+    background: rgba(223, 157, 157, 0.462);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.donate-plan-subcontainer3 h3 {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+}
+
+.donate-plan-subcontainer3 img {
+    width: 58.13px;
+    height: 49.77px;
+}
+
+.donate-plan-subcontainer3 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    width: 315px;
+    height: 101px;
+}
+
+/* lives depend style */
+.lives-depend-section {
+    display: flex;
+    contain: content;
+}
+
+.contant {
+    width: 493px;
+    height: 374px;
+}
+
+.img {
+    width: 456px;
+    height: 477px;
+}
