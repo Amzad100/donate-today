@@ -1,16 +1,20 @@
 * {
     margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header {
     width: 100%;
     height: 669px;
-    background-image: url(../images/donation12.png);
+    background-image: url(../images/donation2.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgb(87, 84, 84);
     background-blend-mode: multiply;
     text-align: center;
     align-items: center;
+    margin: auto;
 }
 
 .header-box {
@@ -56,7 +60,7 @@ section {
     font-size: 45px;
     color: #121212;
     text-align: center;
-    width: 304px;
+    width: 350px;
     height: 54px;
 }
 
@@ -125,7 +129,7 @@ hr {
     font-weight: 700;
     font-size: 45px;
     color: #121212;
-    width: 357px;
+    width: 400px;
     height: 54px;
 }
 
@@ -159,11 +163,6 @@ hr {
     font-weight: 600;
     font-size: 24px;
     color: #121212;
-}
-
-.donate-plan-subcontainer1 img {
-    width: 58.13px;
-    height: 49.77px;
 }
 
 .donate-plan-subcontainer1 p {
@@ -235,7 +234,8 @@ hr {
 /* lives depend style */
 .lives-depend-section {
     display: flex;
-    contain: content;
+    justify-content: space-between;
+    gap: 83px;
 }
 
 .contant {
@@ -243,7 +243,109 @@ hr {
     height: 374px;
 }
 
-.img {
+.lives-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+}
+
+.lives-description1 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lives-description2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+.img1 {
     width: 456px;
     height: 477px;
+    background-image: url('../images/donation6.jpg');
+    border-radius: 5px;
+}
+
+.img2 {
+    width: 456px;
+    height: 477px;
+    background-image: url('../images/donation7.jpg');
+    border-radius: 5px;
+}
+
+/* Get My Updates section style */
+.update-taitle {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    text-align: center;
+}
+
+.update-descriprion {
+    font-weight: 400;
+    font-size: 18px;
+    width: 691px;
+    height: 56px;
+    text-align: center;
+    color: #707070;
+    margin-top: 20px;
+}
+
+.contact-section {
+    width: 809px;
+    height: 200px;
+    background: #FFF4D6;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.contact-item {
+    padding: 76px 188px;
+    display: flex;
+}
+
+.email {
+    width: 275px;
+    height: 48px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: 0;
+    padding-left: 10px;
+}
+
+.btn-secondary {
+    width: 157px;
+    height: 48px;
+    background-color: rgba(230, 66, 66, 0.811);
+    border-radius: 0px 5px 5px 0px;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+/* footer style */
+.footer{
+    margin: auto;
+    background: #0B0D17;
+    height: 177px;
+    text-align: center;
+}
+.footer-title{
+    font-weight: 400;
+font-size: 36px;
+color: #FF5959;
+font-family: 'Lobster';
+
+}
+.footer-description{
+    color: #D9DBE1;
+    font-weight: 400;
+font-size: 14px;
+}
+.footer-contant{
+    padding: 42px 630px;
 }
